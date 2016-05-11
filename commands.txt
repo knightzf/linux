@@ -1,0 +1,1 @@
+mount -t cifs -o username=<user>,password=<pw> //192.168.0.104/share <mount_dir>
