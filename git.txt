@@ -1,0 +1,3 @@
+Save username and password in local git config
+in .git/config, set
+url = https://username:password@repository-url.com
