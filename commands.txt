@@ -1,5 +1,7 @@
 mount -t cifs -o username=<user>,password=<pw> //192.168.0.104/share <mount_dir>
 
+list of mounted devices: cat /proc/mounts
+
 yum install samba samba-client samba-common
 
 samba anonymous share
