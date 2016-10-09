@@ -24,6 +24,9 @@ set smartcase
 " Highlight search results
 set hlsearch
 
+" Incremental search
+:set incsearch
+
 " Show matching brackets when text indicator is over them
 set showmatch
 
