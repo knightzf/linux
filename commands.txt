@@ -8,3 +8,6 @@ yum install samba samba-client samba-common
 
 samba anonymous share
 https://wiki.samba.org/index.php/Anonymous_Share
+
+# terminal color
+LS_COLORS=$LS_COLORS:'di=0;35:' ; export LS_COLORS
