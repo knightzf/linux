@@ -1,0 +1,12 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "git.ignoreMissingGitWarning": true,
+    "editor.minimap.enabled": false,
+    "workbench.editor.enablePreview": false,
+    "window.title": "${activeEditorLong}${separator}${rootName}",
+    "extensions.ignoreRecommendations": true,
+    "extensions.showRecommendationsOnlyOnDemand": true,
+    "files.trimTrailingWhitespace": true,
+    "breadcrumbs.enabled": false,
+    "update.enableWindowsBackgroundUpdates": false,
+}
