@@ -2,6 +2,8 @@
 {
     "git.ignoreMissingGitWarning": true,
     "editor.minimap.enabled": false,
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
     "workbench.editor.enablePreview": false,
     "window.title": "${activeEditorLong}${separator}${rootName}",
     "extensions.ignoreRecommendations": true,
