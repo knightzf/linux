@@ -10,4 +10,4 @@ docker system prune
 docker build -t [name] -f Dockerfile .
 
 docker run -it --rm [name] /bin/bash
-docker run -it --rm --mount source=out,target=/out test /bin/bash
+docker run -it --rm --mount type=bind,source="$(pwd)"/out,target=/out test /bin/bash
