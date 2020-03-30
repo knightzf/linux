@@ -1,0 +1,13 @@
+docker image ls
+docker image rm
+
+docker ps -all
+docker container rm
+
+docker image prune
+docker system prune
+
+docker build -t [name] -f Dockerfile .
+
+docker run -it --rm [name] /bin/bash
+docker run -it --rm --mount source=out,target=/out test /bin/bash
